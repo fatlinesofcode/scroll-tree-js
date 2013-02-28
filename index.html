@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+
+
+    <meta name="viewport" content="width=device-width">
+
+    <style>
+        html, body{
+            height:100%;
+            width:100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: #333333;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #bt-start, #tx-loading {
+            color: white; font-size: 40px; font-family: arial; text-align: center; margin-top: 200px;
+        }
+        #ball-stage{
+        }
+        #links{
+            position: absolute;
+            top:0;
+            right:0;
+            z-index: 2;
+            margin-right: 30px;
+        }
+        #links a{
+            color:black !important;
+            background: white;
+            padding:3px 5px;
+            text-decoration: none;
+
+            font-family: arial;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body >
+
+<div id="links">
+    <a href="javascript:void(0)" id="bt-restart">Restart</a>
+    <a href="http://fatlinesofcode.philipandrews.org/">About</a>
+</div>
+
+<canvas id="canvas-stage" ></canvas>
+
+
+
+<script src="libs/jquery.min.js"></script>
+
+<script src="libs/easeljs-0.6.0.min.js"></script>
+
+
+<script src="scripts.js"></script>
+<script src="Main.js"></script>
+
+
+</body>
+</html>
